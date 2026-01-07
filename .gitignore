@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -23,3 +24,25 @@ dist-ssr
 *.sln
 *.sw?
 
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+
+# Precompiled headers / cache
+*.pch
+*.ipch
+*.db
+*.opendb
+
+# Executables
+*.exe
+*.out
