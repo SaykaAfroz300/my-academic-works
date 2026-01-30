@@ -1,0 +1,163 @@
+/* General body styles */
+body {
+    background-color: #09addf; /* Dark background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Cascadia Code', sans-serif; /* Clean modern font */
+    color: #fff; /* White text for readability */
+}
+
+#home_page {
+    background-color: rgb(196, 9, 230) !important;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+    width: 1000vw;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+#home_page a {
+    margin: 10px;
+    width: 200px;
+}
+
+.bg-pink {
+    background-color: rgb(181, 84, 100);
+}
+
+/* Header styles */
+#header {
+    background-color: #9197eb; /* Light green background for header */
+    height: 8vh;
+    padding: 10px 50px;
+    text-align: left;
+    color: #fbf9f4;
+}
+
+#header h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #efeff4;
+}
+
+#header .col-md-6 {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Sidebar styles */
+#left_sidebar {
+    margin-top: 20px;
+    width: 15vw;
+    background-color: #81CACF; /* Soft blue for sidebar */
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#left_sidebar .table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#left_sidebar td {
+    text-align: center;
+    padding: 10px;
+}
+
+#left_sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    padding: 10px;
+    background-color: #e50fb0; /* Blue background for links */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#left_sidebar a:hover {
+    background-color: #6007ba; /* Light green on hover */
+    color: rgb(255, 252, 252);
+}
+
+/* Right Sidebar (Main content area) */
+#right_sidebar {
+    padding: 30px;
+    background-color: #2b1e46; /* Light gray background for the content */
+    color: #ffffff;
+    font-size: 1.1em;
+    width: 80vw;
+}
+.rounded-image {
+    max-width: 300px;
+    height: 3000px;
+    margin-bottom: 20px;
+}
+
+#right_sidebar h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling the instructions list */
+#right_sidebar ul {
+    line-height: 2em;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+/* Dashboard links */
+#logout_link {
+    color: #ffffff;
+    background-color: #ff2a68; /* Red background for logout */
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+#logout_link:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Styling the input fields and buttons in forms */
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green background for buttons */
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for rounded images */
+.rounded-image {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
